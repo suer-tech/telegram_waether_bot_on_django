@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+db.sqlite3
+
+# Custom
+.idea/
+*.pyc
+*.pyo
+*.pyd

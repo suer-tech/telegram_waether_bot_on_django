@@ -1,14 +1,13 @@
 from pathlib import Path
 
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-$xhmrn3(p4zpvlq77v#y9=scs#xrti@nh))h!s^z*&gv9uu-*e'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
@@ -33,7 +32,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'weather_project.urls'
 
 TEMPLATES = [
     {
